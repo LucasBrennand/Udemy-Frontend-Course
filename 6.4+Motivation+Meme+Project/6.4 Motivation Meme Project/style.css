@@ -1,0 +1,30 @@
+*{
+    color: aliceblue;
+    text-align: center;
+}
+
+body{
+  background-color: navy;  
+}
+
+img{
+    width: 60%;
+}
+
+.box{
+    margin: 20px;
+    background-color: black;
+    border: 5px solid white;
+    padding: 20px
+}
+
+h1{
+    color: rgba(60, 0, 255, 0.888);
+    font-size: 100px;
+    font-family: "Libre Baskerville";
+    margin: 2px auto;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 30px;
+}
