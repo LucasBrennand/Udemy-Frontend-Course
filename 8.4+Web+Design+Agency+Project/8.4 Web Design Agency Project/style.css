@@ -6,12 +6,65 @@ body {
   flex-direction: column;
   min-height: 95vh;
 }
+@media  (max-width: 680px) {
+  body{
+    background-color: red;
+  };
+
+  .card{
+    width: 100%;
+    display: block;
+  }
+
+  .tile-image{
+    width: 100vw;
+  }
+}
 .main {
   flex: 1;
+  display: block;
 }
 
 h1 {
   font-size: 5rem;
+}
+
+.tile-image{
+  width: 300px;
+}
+
+.main.card{
+  display: inline-block;
+}
+
+.card{
+  width: 45%;
+  height: 40vh;
+}
+.right.card{
+  float: right;
+}
+
+.left.card{
+  float: left;
+}
+.card-content{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  float: right;
+  width: 24vw;
+}
+.card-title{
+  float: right;
+ 
+  position: relative;
+}
+.card-text{
+  position: relative;
+  top: -20px;
+  float: right;
+  width: 24vw;
 }
 
 footer {
