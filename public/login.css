@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(180deg, blue, red);
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color: red;
+    background-color: rgb(9, 9, 154);
+    box-shadow: -1px 1px 15px 0px rgb(255, 0, 0);
+}
+
+.card{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    
+    box-shadow: -2px -1px 17px 1px rgb(255, 0, 0);
+    width: 300px;
+    height: 150px;
+    background-color: rgb(27, 67, 199);
+
+}
