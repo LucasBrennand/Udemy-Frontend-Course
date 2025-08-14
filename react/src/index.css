@@ -1,3 +1,21 @@
 body{
   background-color: gray;
 }
+
+.profile-container{
+  width: 500px;
+  height: 400px;
+  margin: 30px;
+}
+
+.profile-header{
+  background-color: aqua;
+}
+
+.profile-body{
+  background-color: rgb(118, 118, 152);
+}
+
+img{
+  width: 200px;
+}
