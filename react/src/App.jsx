@@ -1,11 +1,12 @@
 
-import './index.css'
+// import './index.css'
 import StylingPratice from '../components/StyingPratice'
 import Fetch from '../components/Fetch.jsx'
 import Props from '../components/Props.jsx'
 import Login from '../components/Login.jsx'
 import Profile from '../components/Profile.jsx'
 import Map from '../components/Map.jsx'
+import Emojipedia from '../components/Emojipedia.jsx'
 
 function App() {
 
@@ -31,7 +32,9 @@ function App() {
     /> */}
 
     {/* <Map/> */}
-    <Fetch/>
+    {/* <Fetch/> */}
+    <Emojipedia/>
+
 
     </>
   )
