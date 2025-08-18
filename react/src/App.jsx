@@ -7,6 +7,8 @@ import Login from '../components/Login.jsx'
 import Profile from '../components/Profile.jsx'
 import Map from '../components/Map.jsx'
 import Emojipedia from '../components/Emojipedia.jsx'
+import Notes from '../components/NotesKeeper/Notes.jsx'
+import LoginScreen from '../components/LoginScreen/LoginScreen.jsx'
 
 function App() {
 
@@ -33,7 +35,9 @@ function App() {
 
     {/* <Map/> */}
     {/* <Fetch/> */}
-    <Emojipedia/>
+    {/* <Emojipedia/> */}
+    {/* <Notes/> */}
+    <LoginScreen username="admin" password="1234"/>
 
 
     </>

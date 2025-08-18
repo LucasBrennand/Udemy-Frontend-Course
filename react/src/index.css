@@ -1,27 +1,30 @@
 @import "tailwindcss";
 
-*{
-  margin: 0;
-  padding: 0;
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
 }
-body{
+body {
   background-color: gray;
 }
 
-.profile-container{
+.profile-container {
   width: 500px;
   height: 400px;
   margin: 30px;
 }
 
-.profile-header{
+.profile-header {
   background-color: aqua;
 }
 
-.profile-body{
+.profile-body {
   background-color: rgb(118, 118, 152);
 }
 
-img{
+img {
   width: 200px;
 }
