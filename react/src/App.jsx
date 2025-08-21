@@ -10,6 +10,8 @@ import Emojipedia from '../components/Emojipedia.jsx'
 import Notes from '../components/NotesKeeper/Notes.jsx'
 import LoginScreen from '../components/LoginScreen/LoginScreen.jsx'
 import UserLogin from '../components/UserLogin/UserLogin.jsx'
+import Counter from '../components/Counter.jsx'
+import Time from '../Time.jsx'
 
 function App() {
 
@@ -39,7 +41,9 @@ function App() {
     {/* <Emojipedia/> */}
     {/* <Notes/> */}
     {/* <LoginScreen username="admin" password="1234"/> */}
-    <UserLogin/>
+    {/* <UserLogin/> */}
+    {/* <Counter/> */}
+    <Time/>
 
 
     </>
