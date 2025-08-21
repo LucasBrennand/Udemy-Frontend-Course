@@ -1,6 +1,6 @@
 import Input from "./Input";
 
-function Form(props) {
+function Register(props) {
   return (
     <form
       action=""
@@ -9,6 +9,7 @@ function Form(props) {
       <Input
         type="text"
         placeholder="Username"
+        required
         className="w-[80%] text focus:outline-cyan-500 outline-1 bg-gray-700 outline-white p-2 text-white"
       />
       <Input
@@ -16,20 +17,20 @@ function Form(props) {
         placeholder="Password"
         className="w-[80%] outline-1 bg-gray-700 focus:outline-cyan-500 outline-white p-2 text-white"
       />
-      {props.isRegistered === false && (
-        <Input
-          type="password"
-          placeholder="Confirm Password"
-          className="w-[80%] outline-1 bg-gray-700 focus:outline-cyan-500 outline-white p-2 text-white"
-        />
-      )}
+      <Input
+        type="password"
+        placeholder="Confirm Password"
+        required
+        className="w-[80%] outline-1 bg-gray-700 focus:outline-cyan-500 outline-white p-2 text-white"
+      />
       <Input
         type="submit"
-        value={props.isRegistered === true ? "Login" : "Register"}
+        value={props.value}
+        required
         className="w-[80%] outline-1 hover:cursor-pointer hover:transition-opacity hover:opacity-10 bg-white outline-white p-2 text-gray-500"
       />
     </form>
   );
 }
 
-export default Form;
+export default Register;

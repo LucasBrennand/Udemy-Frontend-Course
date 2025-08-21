@@ -1,6 +1,8 @@
 import Form from "./Form.jsx";
+import Register from "./Register.jsx";
 
 const isLoggedIn = false
+const isRegistered = false
 
 const handleLogin = () => {
   if (isLoggedIn){
@@ -16,7 +18,7 @@ const handleLogin = () => {
 function UserLogin() {
   return (
     <div className="flex justify-center items-center h-dvh">
-      {isLoggedIn ? <h1>Hello</h1> : <Form/>}
+      <Form isRegistered={isRegistered}/>
     </div>
   );
 }
