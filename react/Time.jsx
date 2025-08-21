@@ -15,9 +15,9 @@ function Time(params) {
       <div className="flex flex-col gap-5 justify-center items-center">
         <h1 className="text-purple-900 text-8xl">{currentTime}</h1>
         <button
-          className="bg-cyan-300 w-50 h-15 border-2 border-cyan-400 
+          className="bg-pink-400 w-50 h-15 border-2 border-pink-200 
              hover:cursor-pointer transition-transform duration-300 
-             hover:scale-150 rounded-2xl"
+             hover:scale-150 rounded-2xl text-amber-50 text-3xl"
           onClick={getTime}
         >
           GET TIME
