@@ -12,6 +12,7 @@ import LoginScreen from '../components/LoginScreen/LoginScreen.jsx'
 import UserLogin from '../components/UserLogin/UserLogin.jsx'
 import Counter from '../components/Counter.jsx'
 import Time from '../Time.jsx'
+import Events from '../components/Events.jsx'
 
 function App() {
 
@@ -43,8 +44,8 @@ function App() {
     {/* <LoginScreen username="admin" password="1234"/> */}
     {/* <UserLogin/> */}
     {/* <Counter/> */}
-    <Time/>
-
+    {/* <Time/> */}
+    <Events/>
 
     </>
   )
